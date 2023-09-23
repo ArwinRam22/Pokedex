@@ -1,0 +1,204 @@
+BULBASAUR#0001#Grass, Poison#Overgrow, Chlorophyll*#45#49#49#65#65#45#
+IVYSAUR#0002#Grass, Poison#Overgrow, Chlorophyll*#60#62#63#80#80#60#
+VENUSAUR#0003#Grass, Poison#Overgrow, Chlorophyll*#80#82#83#100#100#80#
+MEGA VENUSAUR#0003#Grass, Poison#Thick Fat#80#100#123#122#120#80#
+CHARMANDER#0004#Fire#Blaze, Solar Power*#39#52#43#60#50#65#
+CHARMELEON#0005#Fire#Blaze, Solar Power*#58#64#58#80#65#80#
+CHARIZARD#0006#Fire, Flying#Blaze, Solar Power*#78#84#78#109#85#100#
+MEGA CHARIZARD X#0006#Fire, Dragon#Tough Claws#78#130#111#130#85#100#
+MEGA CHARIZARD Y#0006#Fire, Flying#Drought#78#104#78#159#115#100#
+SQUIRTLE#0007#Water#Torrent, Rain Dish*#44#48#65#50#64#43#
+WARTORTLE#0008#Water#Torrent, Rain Dish*#59#63#80#65#80#58#
+BLASTOISE#0009#Water#Torrent, Rain Dish*#79#83#100#85#105#78#
+MEGA BLASTOISE#0009#Water#Mega Launcher#79#103#120#135#115#78#
+CATERPIE#0010#Bug#Shield Dust, Run Away*#45#30#35#20#20#45#
+METAPOD#0011#Bug#Shed Skin#50#20#55#25#25#30#
+BUTTERFREE#0012#Bug, Flying#Compound Eyes, Tinted Lens*#60#45#50#90#80#70#
+WEEDLE#0013#Bug, Poison#Shield Dust, Run Away*#40#35#30#20#20#50#
+KAKUNA#0014#Bug, Poison#Shed Skin#45#25#50#25#25#35#
+BEEDRILL#0015#Bug, Poison#Swarm, Sniper*#65#90#40#45#80#75#
+MEGA BEEDRILL#0015#Bug, Poison#Adaptability#65#150#40#15#80#145#
+PIDGEY#0016#Normal, Flying#Keen Eye, Tangled Feet#40#45#40#35#35#56#
+PIDGEOTTO#0017#Normal, Flying#Keen Eye, Tangled Feet#63#60#55#50#50#71#
+PIDGEOT#0018#Normal, Flying#Keen Eye, Tangled Feet#83#80#75#70#70#101#
+MEGA PIDGEOT#0018#Normal, Flying#No Guard#83#80#80#135#80#121#
+RATTATA#0019#Normal#Run Away, Guts#30#56#35#25#35#72#
+ALOLAN RATTATA#0019#Dark, Normal#Gluttony, Hustle#30#56#35#25#35#72#
+RATICATE#0020#Normal#Run Away, Guts#55#81#60#50#70#97#
+ALOLAN RATICATE#0020#Dark, Normal#Gluttony, Hustle#75#71#70#40#80#77#
+SPEAROW#0021#Normal, Flying#Keen Eye, Sniper*#40#60#30#31#31#70#
+FEAROW#0022#Normal, Flying#Keen Eye, Sniper*#65#90#65#61#61#100#
+EKANS#0023#Poison#Intimidate, Shed Skin#35#60#44#40#54#55#
+ARBOK#0024#Poison#Intimidate, Shed Skin#60#95#69#65#79#80#
+PIKACHU#0025#Electric#Static, Lightning Rod*#35#55#40#50#50#90#
+PARTNER PIKACHU#0025#Electric#—#45#80#50#75#60#120#
+RAICHU#0026#Electric#Static, Lightning Rod*#60#90#55#90#80#110#
+ALOLAN RAICHU#0026#Electric, Psychic#Surge Surfer#60#85#50#95#85#110#
+SANDSHREW#0027#Ground#Sand Veil, Sand Rush*#50#75#85#20#30#40#
+ALOLAN SANDSHREW#0027#Ice, Steel#Snow Cloak, Slush Rush*#50#75#90#10#35#40#
+SANDSLASH#0028#Ground#Sand Veil, Sand Rush*#75#100#110#45#55#65#
+ALOLAN SANDSLASH#0028#Ice, Steel#Snow Cloak, Slush Rush*#75#100#120#25#65#65#
+NIDORAN-F#0029#Poison#Poison Point, Rivalry#55#47#52#40#40#41#
+NIDORINA#0030#Poison#Poison Point, Rivalry#70#62#67#55#55#56#
+NIDOQUEEN#0031#Poison, Ground#Poison Point, Rivalry#90#92#87#75#85#76#
+NIDORAN-M#0032#Poison#Poison Point, Rivalry#46#57#40#40#40#50#
+NIDORINO#0033#Poison#Poison Point, Rivalry#61#72#57#55#55#65#
+NIDOKING#0034#Poison, Ground#Poison Point, Rivalry#81#102#77#85#75#85#
+CLEFAIRY#0035#Fairy#Cute Charm, Magic Guard#70#45#48#60#65#35#
+CLEFABLE#0036#Fairy#Cute Charm, Magic Guard#95#70#73#95#90#60#
+VULPIX#0037#Fire#Flash Fire, Drought*#38#41#40#50#65#65#
+ALOLAN VULPIX#0037#Ice#Snow Cloak, Snow Warning*#38#41#40#50#65#65#
+NINETALES#0038#Fire#Flash Fire, Drought*#73#76#75#81#100#100#
+ALOLAN NINETALES#0038#Ice, Fairy#Snow Cloak, Snow Warning*#73#67#75#81#100#109#
+JIGGLYPUFF#0039#Normal, Fairy#Cute Charm, Competitive#115#45#20#45#25#20#
+WIGGLYTUFF#0040#Normal, Fairy#Cute Charm, Competitive#140#70#45#85#50#45#
+ZUBAT#0041#Poison, Flying#Inner Focus, Infiltrator*#40#45#35#30#40#55#
+GOLBAT#0042#Poison, Flying#Inner Focus, Infiltrator*#75#80#70#65#75#90#
+ODDISH#0043#Grass, Poison#Chlorophyll, Run Away*#45#50#55#75#65#30#
+GLOOM#0044#Grass, Poison#Chlorophyll, Stench*#60#65#70#85#75#40#
+VILEPLUME#0045#Grass, Poison#Chlorophyll, Effect Spore*#75#80#85#110#90#50#
+PARAS#0046#Bug, Grass#Effect Spore, Dry Skin#35#70#55#45#55#25#
+PARASECT#0047#Bug, Grass#Effect Spore, Dry Skin#60#95#80#60#80#30#
+VENONAT#0048#Bug, Poison#Compound Eyes, Tinted Lens#60#55#50#40#55#45#
+VENOMOTH#0049#Bug, Poison#Shield Dust, Tinted Lens#70#65#60#90#75#90#
+DIGLETT#0050#Ground#Sand Veil, Arena Trap#10#55#25#35#45#95#
+ALOLAN DIGLETT#0050#Ground, Steel#Sand Veil, Tangling Hair#10#55#30#35#45#90#
+DUGTRIO#0051#Ground#Sand Veil, Arena Trap#35#100#50#50#70#120#
+ALOLAN DUGTRIO#0051#Ground, Steel#Sand Veil, Tangling Hair#35#100#60#50#70#110#
+MEOWTH#0052#Normal#Pickup, Technician#40#45#35#40#40#90#
+ALOLAN MEOWTH#0052#Dark#Pickup, Technician#40#35#35#50#40#90#
+GALARIAN MEOWTH#0052#Steel#Pickup, Tough Claws#50#65#55#40#40#40#
+PERSIAN#0053#Normal#Limber, Technician#65#70#60#65#65#115#
+ALOLAN PERSIAN#0053#Dark#Fur Coat, Technician#65#60#60#75#65#115#
+PSYDUCK#0054#Water#Damp, Cloud Nine#50#52#48#65#50#55#
+GOLDUCK#0055#Water#Damp, Cloud Nine#80#82#78#95#80#85#
+MANKEY#0056#Fighting#Vital Spirit, Anger Point#40#80#35#35#45#70#
+PRIMEAPE#0057#Fighting#Vital Spirit, Anger Point#65#105#60#60#70#95#
+GROWLITHE#0058#Fire#Intimidate, Flash Fire#55#70#45#70#50#60#
+HISUIAN GROWLITHE#0058#Fire, Rock#Intimidate, Flash Fire#60#75#45#65#50#55#
+ARCANINE#0059#Fire#Intimidate, Flash Fire#90#110#80#100#80#95#
+HISUIAN ARCANINE#0059#Fire, Rock#Intimidate, Flash Fire#95#115#80#95#80#90#
+POLIWAG#0060#Water#Water Absorb, Damp#40#50#40#40#40#90#
+POLIWHIRL#0061#Water#Water Absorb, Damp#65#65#65#50#50#90#
+POLIWRATH#0062#Water, Fighting#Water Absorb, Damp#90#95#95#70#90#70#
+ABRA#0063#Psychic#Synchronize, Inner Focus#25#20#15#105#55#90#
+KADABRA#0064#Psychic#Synchronize, Inner Focus#40#35#30#120#70#105#
+ALAKAZAM#0065#Psychic#Synchronize, Inner Focus#55#50#45#135#95#120#
+MEGA ALAKAZAM#0065#Psychic#Trace#55#50#65#175#105#150#
+MACHOP#0066#Fighting#Guts, No Guard#70#80#50#35#35#35#
+MACHOKE#0067#Fighting#Guts, No Guard#80#100#70#50#60#45#
+MACHAMP#0068#Fighting#Guts, No Guard#90#130#80#65#85#55#
+BELLSPROUT#0069#Grass, Poison#Chlorophyll, Gluttony*#50#75#35#70#30#40#
+WEEPINBELL#0070#Grass, Poison#Chlorophyll, Gluttony*#65#90#50#85#45#55#
+VICTREEBEL#0071#Grass, Poison#Chlorophyll, Gluttony*#80#105#65#100#70#70#
+TENTACOOL#0072#Water, Poison#Clear Body, Liquid Ooze#40#40#35#50#100#70#
+TENTACRUEL#0073#Water, Poison#Clear Body, Liquid Ooze#80#70#65#80#120#100#
+GEODUDE#0074#Rock, Ground#Rock Head, Sturdy#40#80#100#30#30#20#
+ALOLAN GEODUDE#0074#Rock, Electric#Magnet Pull, Sturdy#40#80#100#30#30#20#
+GRAVELER#0075#Rock, Ground#Rock Head, Sturdy#55#95#115#45#45#35#
+ALOLAN GRAVELER#0075#Rock, Electric#Magnet Pull, Sturdy#55#95#115#45#45#35#
+GOLEM#0076#Rock, Ground#Rock Head, Sturdy#80#120#130#55#65#45#
+ALOLAN GOLEM#0076#Rock, Electric#Magnet Pull, Sturdy#80#120#130#55#65#45#
+PONYTA#0077#Fire#Run Away, Flash Fire#50#85#55#65#65#90#
+GALARIAN PONYTA#0077#Psychic#Run Away, Pastel Veil#50#85#55#65#65#90#
+RAPIDASH#0078#Fire#Run Away, Flash Fire#65#100#70#80#80#105#
+GALARIAN RAPIDASH#0078#Psychic, Fairy#Run Away, Pastel Veil#65#100#70#80#80#105#
+SLOWPOKE#0079#Water, Psychic#Oblivious, Own Tempo#90#65#65#40#40#15#
+GALARIAN SLOWPOKE#0079#Psychic#Gluttony, Own Tempo#90#65#65#40#40#15#
+SLOWBRO#0080#Water, Psychic#Oblivious, Own Tempo#95#75#110#100#80#30#
+MEGA SLOWBRO#0080#Water, Psychic#Shell Armor#95#75#180#130#80#30#
+GALARIAN SLOWBRO#0080#Poison, Psychic#Quick Draw, Own Tempo#95#100#95#100#70#30#
+MAGNEMITE#0081#Electric, Steel#Magnet Pull, Sturdy#25#35#70#95#55#45#
+MAGNETON#0082#Electric, Steel#Magnet Pull, Sturdy#50#60#95#120#70#70#
+FARFETCHD (FARFETCH'D #0083#Normal, Flying#Keen Eye, Inner Focus#52#90#55#58#62#60#
+FARFETCHD (GALARIAN FARFETCH'D #0083#Fighting#Steadfast, Scrappy*#52#95#55#58#62#55#
+DODUO#0084#Normal, Flying#Run Away, Early Bird#35#85#45#35#35#75#
+DODRIO#0085#Normal, Flying#Run Away, Early Bird#60#110#70#60#60#110#
+SEEL#0086#Water#Thick Fat, Hydration#65#45#55#45#70#45#
+DEWGONG#0087#Water, Ice#Thick Fat, Hydration#90#70#80#70#95#70#
+GRIMER#0088#Poison#Stench, Sticky Hold#80#80#50#40#50#25#
+ALOLAN GRIMER#0088#Poison, Dark#Poison Touch, Gluttony#80#80#50#40#50#25#
+MUK#0089#Poison#Stench, Sticky Hold#105#105#75#65#100#50#
+ALOLAN MUK#0089#Poison, Dark#Poison Touch, Gluttony#105#105#75#65#100#50#
+SHELLDER#0090#Water#Shell Armor, Skill Link#30#65#100#45#25#40#
+CLOYSTER#0091#Water, Ice#Shell Armor, Skill Link#50#95#180#85#45#70#
+GASTLY#0092#Ghost, Poison#Levitate#30#35#30#100#35#80#
+HAUNTER#0093#Ghost, Poison#Levitate#45#50#45#115#55#95#
+GENGAR#0094#Ghost, Poison#Cursed Body#60#65#60#130#75#110#
+MEGA GENGAR#0094#Ghost, Poison#Shadow Tag#60#65#80#170#95#130#
+ONIX#0095#Rock, Ground#Rock Head, Sturdy#35#45#160#30#45#70#
+DROWZEE#0096#Psychic#Insomnia, Forewarn#60#48#45#43#90#42#
+HYPNO#0097#Psychic#Insomnia, Forewarn#85#73#70#73#115#67#
+KRABBY#0098#Water#Hyper Cutter, Shell Armor#30#105#90#25#25#50#
+KINGLER#0099#Water#Hyper Cutter, Shell Armor#55#130#115#50#50#75#
+VOLTORB#0100#Electric#Soundproof, Static#40#30#50#55#55#100#
+HISUIAN VOLTORB#0100#Electric, Grass#Soundproof, Static#40#30#50#55#55#100#
+ELECTRODE#0101#Electric#Soundproof, Static#60#50#70#80#80#150#
+HISUIAN ELECTRODE#0101#Electric, Grass#Soundproof, Static#60#50#70#80#80#150#
+EXEGGCUTE#0102#Grass, Psychic#Chlorophyll, Harvest*#60#40#80#60#45#40#
+EXEGGUTOR#0103#Grass, Psychic#Chlorophyll, Harvest*#95#95#85#125#75#55#
+ALOLAN EXEGGUTOR#0103#Grass, Dragon#Frisk, Harvest*#95#105#85#125#75#45#
+CUBONE#0104#Ground#Rock Head, Lightning Rod#50#50#95#40#50#35#
+MAROWAK#0105#Ground#Rock Head, Lightning Rod#60#80#110#50#80#45#
+ALOLAN MAROWAK#0105#Fire, Ghost#Cursed Body, Lightning Rod#60#80#110#50#80#45#
+HITMONLEE#0106#Fighting#Limber, Reckless#50#120#53#35#110#87#
+HITMONCHAN#0107#Fighting#Keen Eye, Iron Fist#50#105#79#35#110#76#
+LICKITUNG#0108#Normal#Own Tempo, Oblivious#90#55#75#60#75#30#
+KOFFING#0109#Poison#Levitate, Neutralizing Gas#40#65#95#60#45#35#
+WEEZING#0110#Poison#Levitate, Neutralizing Gas#65#90#120#85#70#60#
+GALARIAN WEEZING#0110#Poison, Fairy#Levitate, Neutralizing Gas#65#90#120#85#70#60#
+RHYHORN#0111#Ground, Rock#Lightning Rod, Rock Head#80#85#95#30#30#25#
+RHYDON#0112#Ground, Rock#Lightning Rod, Rock Head#105#130#120#45#45#40#
+CHANSEY#0113#Normal#Natural Cure, Serene Grace#250#5#5#35#105#50#
+TANGELA#0114#Grass#Chlorophyll, Leaf Guard#65#55#115#100#40#60#
+KANGASKHAN#0115#Normal#Early Bird, Scrappy#105#95#80#40#80#90#
+MEGA KANGASKHAN#0115#Normal#Parental Bond#105#125#100#60#100#100#
+HORSEA#0116#Water#Swift Swim, Sniper#30#40#70#70#25#60#
+SEADRA#0117#Water#Poison Point, Sniper#55#65#95#95#45#85#
+GOLDEEN#0118#Water#Swift Swim, Water Veil#45#67#60#35#50#63#
+SEAKING#0119#Water#Swift Swim, Water Veil#80#92#65#65#80#68#
+STARYU#0120#Water#Illuminate, Natural Cure#30#45#55#70#55#85#
+STARMIE#0121#Water, Psychic#Illuminate, Natural Cure#60#75#85#100#85#115#
+MR-MIME (MR. MIME #0122#Psychic, Fairy#Soundproof, Filter#40#45#65#100#120#90#
+MR-MIME (GALARIAN MR. MIME #0122#Ice, Psychic#Vital Spirit, Screen Cleaner#50#65#65#90#90#100#
+SCYTHER#0123#Bug, Flying#Swarm, Technician#70#110#80#55#80#105#
+JYNX#0124#Ice, Psychic#Oblivious, Forewarn#65#50#35#115#95#95#
+ELECTABUZZ#0125#Electric#Static, Vital Spirit*#65#83#57#95#85#105#
+MAGMAR#0126#Fire#Flame Body, Vital Spirit*#65#95#57#100#85#93#
+PINSIR#0127#Bug#Hyper Cutter, Mold Breaker#65#125#100#55#70#85#
+MEGA PINSIR#0127#Bug, Flying#Aerilate#65#155#120#65#90#105#
+TAUROS#0128#Normal#Intimidate, Anger Point#75#100#95#40#70#110#
+TAUROS (COMBAT BREED #0128#Fighting#Intimidate, Anger Point#75#110#105#30#70#100#
+TAUROS (BLAZE BREED #0128#Fighting, Fire#Intimidate, Anger Point#75#110#105#30#70#100#
+TAUROS (AQUA BREED #0128#Fighting, Water#Intimidate, Anger Point#75#110#105#30#70#100#
+MAGIKARP#0129#Water#Swift Swim, Rattled*#20#10#55#15#20#80#
+GYARADOS#0130#Water, Flying#Intimidate, Moxie*#95#125#79#60#100#81#
+MEGA GYARADOS#0130#Water, Dark#Mold Breaker#95#155#109#70#130#81#
+LAPRAS#0131#Water, Ice#Water Absorb, Shell Armor#130#85#80#85#95#60#
+DITTO#0132#Normal#Limber, Imposter*#48#48#48#48#48#48#
+EEVEE#0133#Normal#Run Away, Adaptability#55#55#50#45#65#55#
+PARTNER EEVEE#0133#Normal#—#65#75#70#65#85#75#
+VAPOREON#0134#Water#Water Absorb, Hydration*#130#65#60#110#95#65#
+JOLTEON#0135#Electric#Volt Absorb, Quick Feet*#65#65#60#110#95#130#
+FLAREON#0136#Fire#Flash Fire, Guts*#65#130#60#95#110#65#
+PORYGON#0137#Normal#Trace, Download#65#60#70#85#75#40#
+OMANYTE#0138#Rock, Water#Swift Swim, Shell Armor#35#40#100#90#55#35#
+OMASTAR#0139#Rock, Water#Swift Swim, Shell Armor#70#60#125#115#70#55#
+KABUTO#0140#Rock, Water#Swift Swim, Battle Armor#30#80#90#55#45#55#
+KABUTOPS#0141#Rock, Water#Swift Swim, Battle Armor#60#115#105#65#70#80#
+AERODACTYL#0142#Rock, Flying#Rock Head, Pressure#80#105#65#60#75#130#
+MEGA AERODACTYL#0142#Rock, Flying#Tough Claws#80#135#85#70#95#150#
+SNORLAX#0143#Normal#Immunity, Thick Fat#160#110#65#65#110#30#
+ARTICUNO#0144#Ice, Flying#Pressure, Snow Cloak*#90#85#100#95#125#85#
+GALARIAN ARTICUNO#0144#Psychic, Flying#Competitive#90#85#85#125#100#95#
+ZAPDOS#0145#Electric, Flying#Pressure, Static*#90#90#85#125#90#100#
+GALARIAN ZAPDOS#0145#Fighting, Flying#Defiant#90#125#90#85#90#100#
+MOLTRES#0146#Fire, Flying#Pressure, Flame Body*#90#100#90#125#85#90#
+GALARIAN MOLTRES#0146#Dark, Flying#Berserk#90#85#90#100#125#90#
+DRATINI#0147#Dragon#Shed Skin, Marvel Scale*#41#64#45#50#50#50#
+DRAGONAIR#0148#Dragon#Shed Skin, Marvel Scale*#61#84#65#70#70#70#
+DRAGONITE#0149#Dragon, Flying#Inner Focus, Multiscale*#91#134#95#100#100#80#
+MEWTWO#0150#Psychic#Pressure, Unnerve*#106#110#90#154#90#130#
+MEGA MEWTWO X#0150#Psychic, Fighting#Steadfast#106#190#100#154#100#130#
+MEGA MEWTWO Y#0150#Psychic#Insomnia#106#150#70#194#120#140#
+MEW#0151#Psychic#Synchronize#100#100#100#100#100#100#

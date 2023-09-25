@@ -17,15 +17,20 @@ public class PokeDex extends JPanel implements ActionListener, FocusListener
     JLabel pokemonDisplay;
     int GAP = 10;
 
+    JButton nextPokemonButton, prevPokemonButton;
+
     String clearButtonCode = "Clear";
     String openButtonCode = "Open";
+    String nextButtonCode = "Next";
+    String prevButtonCode = "Prev";
     File file;
+    String currentGeneration = "";
 
     public PokeDex()
     {
         setLayout(new BoxLayout(this, BoxLayout.LINE_AXIS));
 
-        JPanel leftPanel = new JPanel()
+        JPanel basicInfoPanel = new JPanel()
         {
             public Dimension getMaximumSize()
             {
@@ -33,12 +38,13 @@ public class PokeDex extends JPanel implements ActionListener, FocusListener
                 return new Dimension(Integer.MAX_VALUE, pref.height);
             }
         };
-        leftPanel.setLayout(new BoxLayout(leftPanel, BoxLayout.PAGE_AXIS));
-        leftPanel.add(createButtons());
-        leftPanel.add(createEntryFields());
-        add(leftPanel);
+        basicInfoPanel.setLayout(new BoxLayout(basicInfoPanel, BoxLayout.PAGE_AXIS));
+        basicInfoPanel.add(createButtons());
+        basicInfoPanel.add(createEntryFields());
+        basicInfoPanel.add(createSwitchButtons());
+        add(basicInfoPanel);
 
-        JPanel rightPanel = new JPanel()
+        JPanel statPanel = new JPanel()
         {
             public Dimension getMaximumSize()
             {
@@ -46,9 +52,9 @@ public class PokeDex extends JPanel implements ActionListener, FocusListener
                 return new Dimension(Integer.MAX_VALUE, pref.height);
             }
         };
-        rightPanel.setLayout(new BoxLayout(rightPanel, BoxLayout.PAGE_AXIS));
-        rightPanel.add(createStatFields());
-        add(rightPanel);
+        statPanel.setLayout(new BoxLayout(statPanel, BoxLayout.PAGE_AXIS));
+        statPanel.add(createStatFields());
+        add(statPanel);
 
         JPanel pokemonDisplayPanel = new JPanel()
         {
@@ -59,10 +65,10 @@ public class PokeDex extends JPanel implements ActionListener, FocusListener
             }
         };
         pokemonDisplayPanel.setLayout(new BoxLayout(pokemonDisplayPanel, BoxLayout.PAGE_AXIS));
-
         pokemonDisplayPanel.add(createPokemonDisplay());
 
         add(pokemonDisplayPanel);
+        updateDisplays();
     }
 
     private JComponent createButtons()
@@ -83,7 +89,28 @@ public class PokeDex extends JPanel implements ActionListener, FocusListener
         button.setActionCommand(openButtonCode);
         panel.add(button);
 
-        panel.setBorder(BorderFactory.createEmptyBorder(0, 0, GAP-5, GAP-5));
+        panel.setBorder(BorderFactory.createEmptyBorder(GAP-5, GAP-5, GAP-5, GAP-5));
+
+        return panel;
+    }
+    
+    private JComponent createSwitchButtons()
+    {
+        JPanel panel = new JPanel(new FlowLayout(FlowLayout.TRAILING));
+
+        nextPokemonButton = new JButton("Next Pokemon");
+        nextPokemonButton.addActionListener(this);
+        nextPokemonButton.setActionCommand(nextButtonCode);
+        panel.add(nextPokemonButton);
+        nextPokemonButton.setEnabled(false);
+
+        prevPokemonButton = new JButton("Prev Pokemon");
+        prevPokemonButton.addActionListener(this);
+        prevPokemonButton.setActionCommand(prevButtonCode);
+        panel.add(prevPokemonButton);
+        prevPokemonButton.setEnabled(false);
+
+        panel.setBorder(BorderFactory.createEmptyBorder(GAP-5, GAP-5, GAP-5, GAP-5));
 
         return panel;
     }
@@ -198,6 +225,7 @@ public class PokeDex extends JPanel implements ActionListener, FocusListener
                                         GAP, GAP, 
                                         GAP, GAP/2);
 
+        panel.setPreferredSize(new Dimension(100, 400));
         return panel;
     }
 
@@ -207,13 +235,11 @@ public class PokeDex extends JPanel implements ActionListener, FocusListener
         
         pokemonDisplay = new JLabel();
         pokemonDisplay.setHorizontalAlignment(JLabel.CENTER);
-        pokemonDisplay.setPreferredSize(new Dimension(1000, 1000));
-        updateDisplays();
 
         panel.setBorder(BorderFactory.createEmptyBorder(GAP/2, 0, GAP/2, 0));
         panel.add(new JSeparator(JSeparator.VERTICAL), BorderLayout.LINE_START);
         panel.add(pokemonDisplay, BorderLayout.CENTER);
-        panel.setPreferredSize(new Dimension(400, 400));
+        panel.setPreferredSize(new Dimension(150, 250));
 
         return panel;
     }
@@ -235,13 +261,14 @@ public class PokeDex extends JPanel implements ActionListener, FocusListener
         int pokemonImageWidth = 200, pokemonImageHeight = 200;
         if (pokemonSet)
         {
+            String[][] pokemonList = getPokemonList();
             String[] foundPokemon = null;
             if (!nameField.getText().equals(null))
-                foundPokemon = getPokemon(getPokemonList());
+                foundPokemon = getPokemon(pokemonList);
             
             if (foundPokemon != null)
             {
-                Image pokemonImage = createImageIcon("images/pokemon/" + foundPokemon[0].toLowerCase() + ".png").getImage().getScaledInstance(pokemonImageWidth, pokemonImageHeight, java.awt.Image.SCALE_SMOOTH);
+                Image pokemonImage = createImageIcon("images/" + currentGeneration + "/" + foundPokemon[0].toLowerCase() + ".png").getImage().getScaledInstance(pokemonImageWidth, pokemonImageHeight, java.awt.Image.SCALE_SMOOTH);
                 pokemonDisplay.setIcon(new ImageIcon(pokemonImage));
 
                 nameField.setText(foundPokemon[0]);
@@ -259,11 +286,19 @@ public class PokeDex extends JPanel implements ActionListener, FocusListener
                 for (int i = 4; i < foundPokemon.length; i++)
                     total += Integer.parseInt(foundPokemon[i]);
                 totField.setText(String.valueOf(total));
+
+                nextPokemonButton.setEnabled(true);
+                prevPokemonButton.setEnabled(true);
+                int currentIndex = findPokemon(pokemonList);
+                if (currentIndex == pokemonList.length-1)
+                    nextPokemonButton.setEnabled(false);
+                else if (currentIndex == 0)
+                    prevPokemonButton.setEnabled(false);
             }
         }
         else
         {
-            Image icon = createImageIcon("images/pokemon/???.png").getImage().getScaledInstance(pokemonImageWidth, pokemonImageHeight,  java.awt.Image.SCALE_SMOOTH);
+            Image icon = createImageIcon("images/???.png").getImage().getScaledInstance(pokemonImageWidth, pokemonImageHeight,  java.awt.Image.SCALE_SMOOTH);
             pokemonDisplay.setIcon(new ImageIcon(icon));
         }
     }
@@ -299,6 +334,15 @@ public class PokeDex extends JPanel implements ActionListener, FocusListener
         return pokemonList[index];
     }
 
+    private int findPokemon(String[][] pokemonList)
+    {
+        String find = nameField.getText();
+        int index = 0;
+        while (index < pokemonList.length && !pokemonList[index][0].equals(find.toUpperCase()))
+            index++;
+        return index;
+    }
+    
     public void focusGained(FocusEvent e)
     {
         Component c = e.getComponent();
@@ -339,6 +383,9 @@ public class PokeDex extends JPanel implements ActionListener, FocusListener
             spDefField.setText("");
             speField.setText("");
             totField.setText("");
+
+            nextPokemonButton.setEnabled(false);
+            prevPokemonButton.setEnabled(false);
         }
         else if (openButtonCode.equals(e.getActionCommand()))
         {
@@ -346,13 +393,20 @@ public class PokeDex extends JPanel implements ActionListener, FocusListener
             int returnVal = fc.showOpenDialog(this);
             if (returnVal == JFileChooser.APPROVE_OPTION) {
                 file = fc.getSelectedFile();
+                currentGeneration = file.getName().substring(0, 5);
             }
         }
-        else {
+        else
+        {
+            String[][] pokemonList = getPokemonList();
+            int currentIndex = findPokemon(pokemonList);
+            if (nextButtonCode.equals(e.getActionCommand()))
+                nameField.setText(pokemonList[currentIndex+1][0]);
+            else if (prevButtonCode.equals(e.getActionCommand()))
+                nameField.setText(pokemonList[currentIndex-1][0]);
             pokemonSet = true;
         }
         
         updateDisplays();
     }
-
 }

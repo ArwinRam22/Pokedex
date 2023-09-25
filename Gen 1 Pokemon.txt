@@ -31,7 +31,6 @@ FEAROW#0022#Normal, Flying#Keen Eye, Sniper*#65#90#65#61#61#100#
 EKANS#0023#Poison#Intimidate, Shed Skin#35#60#44#40#54#55#
 ARBOK#0024#Poison#Intimidate, Shed Skin#60#95#69#65#79#80#
 PIKACHU#0025#Electric#Static, Lightning Rod*#35#55#40#50#50#90#
-PARTNER PIKACHU#0025#Electric#—#45#80#50#75#60#120#
 RAICHU#0026#Electric#Static, Lightning Rod*#60#90#55#90#80#110#
 ALOLAN RAICHU#0026#Electric, Psychic#Surge Surfer#60#85#50#95#85#110#
 SANDSHREW#0027#Ground#Sand Veil, Sand Rush*#50#75#85#20#30#40#
@@ -110,8 +109,8 @@ MEGA SLOWBRO#0080#Water, Psychic#Shell Armor#95#75#180#130#80#30#
 GALARIAN SLOWBRO#0080#Poison, Psychic#Quick Draw, Own Tempo#95#100#95#100#70#30#
 MAGNEMITE#0081#Electric, Steel#Magnet Pull, Sturdy#25#35#70#95#55#45#
 MAGNETON#0082#Electric, Steel#Magnet Pull, Sturdy#50#60#95#120#70#70#
-FARFETCHD (FARFETCH'D #0083#Normal, Flying#Keen Eye, Inner Focus#52#90#55#58#62#60#
-FARFETCHD (GALARIAN FARFETCH'D #0083#Fighting#Steadfast, Scrappy*#52#95#55#58#62#55#
+FARFETCH'D#0083#Normal, Flying#Keen Eye, Inner Focus#52#90#55#58#62#60#
+GALARIAN FARFETCH'D#0083#Fighting#Steadfast, Scrappy*#52#95#55#58#62#55#
 DODUO#0084#Normal, Flying#Run Away, Early Bird#35#85#45#35#35#75#
 DODRIO#0085#Normal, Flying#Run Away, Early Bird#60#110#70#60#60#110#
 SEEL#0086#Water#Thick Fat, Hydration#65#45#55#45#70#45#
@@ -159,8 +158,8 @@ GOLDEEN#0118#Water#Swift Swim, Water Veil#45#67#60#35#50#63#
 SEAKING#0119#Water#Swift Swim, Water Veil#80#92#65#65#80#68#
 STARYU#0120#Water#Illuminate, Natural Cure#30#45#55#70#55#85#
 STARMIE#0121#Water, Psychic#Illuminate, Natural Cure#60#75#85#100#85#115#
-MR-MIME (MR. MIME #0122#Psychic, Fairy#Soundproof, Filter#40#45#65#100#120#90#
-MR-MIME (GALARIAN MR. MIME #0122#Ice, Psychic#Vital Spirit, Screen Cleaner#50#65#65#90#90#100#
+MR. MIME#0122#Psychic, Fairy#Soundproof, Filter#40#45#65#100#120#90#
+GALARIAN MR. MIME#0122#Ice, Psychic#Vital Spirit, Screen Cleaner#50#65#65#90#90#100#
 SCYTHER#0123#Bug, Flying#Swarm, Technician#70#110#80#55#80#105#
 JYNX#0124#Ice, Psychic#Oblivious, Forewarn#65#50#35#115#95#95#
 ELECTABUZZ#0125#Electric#Static, Vital Spirit*#65#83#57#95#85#105#
@@ -168,16 +167,15 @@ MAGMAR#0126#Fire#Flame Body, Vital Spirit*#65#95#57#100#85#93#
 PINSIR#0127#Bug#Hyper Cutter, Mold Breaker#65#125#100#55#70#85#
 MEGA PINSIR#0127#Bug, Flying#Aerilate#65#155#120#65#90#105#
 TAUROS#0128#Normal#Intimidate, Anger Point#75#100#95#40#70#110#
-TAUROS (COMBAT BREED #0128#Fighting#Intimidate, Anger Point#75#110#105#30#70#100#
-TAUROS (BLAZE BREED #0128#Fighting, Fire#Intimidate, Anger Point#75#110#105#30#70#100#
-TAUROS (AQUA BREED #0128#Fighting, Water#Intimidate, Anger Point#75#110#105#30#70#100#
+TAUROS (COMBAT BREED)#0128#Fighting#Intimidate, Anger Point#75#110#105#30#70#100#
+TAUROS (BLAZE BREED)#0128#Fighting, Fire#Intimidate, Anger Point#75#110#105#30#70#100#
+TAUROS (AQUA BREED)#0128#Fighting, Water#Intimidate, Anger Point#75#110#105#30#70#100#
 MAGIKARP#0129#Water#Swift Swim, Rattled*#20#10#55#15#20#80#
 GYARADOS#0130#Water, Flying#Intimidate, Moxie*#95#125#79#60#100#81#
 MEGA GYARADOS#0130#Water, Dark#Mold Breaker#95#155#109#70#130#81#
 LAPRAS#0131#Water, Ice#Water Absorb, Shell Armor#130#85#80#85#95#60#
 DITTO#0132#Normal#Limber, Imposter*#48#48#48#48#48#48#
 EEVEE#0133#Normal#Run Away, Adaptability#55#55#50#45#65#55#
-PARTNER EEVEE#0133#Normal#—#65#75#70#65#85#75#
 VAPOREON#0134#Water#Water Absorb, Hydration*#130#65#60#110#95#65#
 JOLTEON#0135#Electric#Volt Absorb, Quick Feet*#65#65#60#110#95#130#
 FLAREON#0136#Fire#Flash Fire, Guts*#65#130#60#95#110#65#

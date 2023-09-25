@@ -8,7 +8,7 @@ public class Driver extends JPanel
     {
         JFrame frame = new JFrame("Pokedex");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(800, 250);
+        frame.setSize(850, 250);
 
         frame.add(new PokeDex());
 
